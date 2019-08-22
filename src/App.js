@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar from './components/layout/NavBar.js';
 import PokemonList from './components/pokemon/PokemonList';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Dashboard from './components/layout/Dashboard';
 import Pokemon from './components/pokemon/Pokemon';
 function App() {
