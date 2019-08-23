@@ -20,8 +20,9 @@ function PokemonList() {
 
         fetch(pokeApi).then(function (response) { return response.json() }).then
             (function (myJson) {
-                console.log(myJson.results)
-                setPokemon(myJson.results)
+                console.log(myJson.results);
+                setPokemon(myJson.results);
+                setfilteredPoke(myJson.results);
             })
 
 
