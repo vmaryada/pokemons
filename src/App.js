@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar></NavBar>
-
+        <h3>Pokemon App</h3>
         <img src={poke_logo} className="" alt="logo" width="200px" style={{paddingBottom:"30px", paddingTop:"30px"}} />
         <br />
         <Switch>
